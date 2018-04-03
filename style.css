@@ -1,12 +1,67 @@
+
 body {
-  background-color: coral;
+/*  background: linear-gradient(#00e6e6, #e6ffff);*/
+    background-color: cyan;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
 }
 
 h1 {
   color: blue;
+  text-align: center;
+  text-shadow: 2px 2px 5px black;
+  font-family: 'Pinyon Script', serif, sans-serif;
 }
 
 h2 {
-  color: yellow;
+  color: black;
   text-align: center;
+  text-shadow: 1px 1px 3px blue;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  margin: auto;
+  box-shadow: 3px 5px 3px black;
+    border-radius: 50%;
+}
+
+#circle {
+  color: darked;
+  font-size: 40px;
+}
+
+img {
+    max-width: auto;
+    height: auto;
+    padding: 5px;
+    opacity: 0.5;
+    display: block;
+    margin: auto;
+    margin-bottom: 60px;
+    
+}
+
+.borderImg {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    border: 2px solid red;
+    padding: 5px;
+}
+
+button {
+    color: white;
+    background: red;
+    border-radius: 12px;
+}
+
+
+.formatting {
+    font-size: 25px;
+    line-height: 2em;
+    color: darkred;
 }
