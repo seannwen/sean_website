@@ -8,30 +8,82 @@
     </head>
     <body>
        <nav>
-           <ul class="topnav">
+           <ul class="topnav" id="dropdownClick">
                <li><a href="#home">HOME</a></li>
                <li><a href="#about">ABOUT</a></li>
                <li><a href="#resume">RESUME</a></li>
                <li><a href="#experiences">EXPERIENCES</a></li>
                <li><a href="#projects">PROJECTS</a></li>
-               <li class="dropdownIcon"><a href="">&#9776</a></li>
+               <li class="dropdownIcon"><a href="javascript:void(0);" onclick="dropdownMewnu()">&#9776;</a></li>
            </ul>
        </nav>
+       
+       <div class="container" id="section-1-gradient">
+           <div class="row">
+              <div class="col-6 ">
+                  <div class="leftSide-col">
+                      <h1 class="large">Crazy Radness</h1>
+                      <h1 class="large">Made for Crazy Sean</h1>
+                  </div>
+                  <form>
+                      <div class="leftSide-col">
+                          <h2>Username</h2>
+                          <input class="inputbox" name="username" type="text" placeholder="Username">
+                          <h2>Passward</h2>
+                          <input class="inputbox" name="passward" type="text" placeholder="Passward">
+                      </div>
+                  </form>
+              </div>
+              <div class="col-6">
+                  <div class="rightSide-col">
+                     <div class="videoContainer">
+                      <iframe width="560" height="315" src="https://www.youtube.com/embed/rYeSA1vgIUE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                      </div>
+                  </div>
+              </div>
+           </div>
+       </div>
+       
+       <header>
+           <h1 class="section2Header">Awesomeness!!!</h1>
+       </header>
+       <div class="container">
+          <div class="row">
+             <div class="col-4">
+                 <div class="box">
+                     <div class="box">
+                         
+                     </div>
+                 </div>
+             </div>
+              
+          </div>
+           
+       </div>
+       
+       <script>
+            function dropdownMewnu() {
+                 var x = document.getElementById("dropdownClick");
+                if (x.className === "topnav") {
+                    x.className += " responsive";
+//                    change topnav to topnav.responsive
+                }else {
+                    x.className = "topnav";
+                }
+            }
+        
+        
+        </script>
+       
         <h1>Tsun-Hsiang Wen (Sean)</h1>
 <!--         <div class="square"></div> -->
         <div>
             <img src="lion.png" class="borderImg">
         </div>
-<!--
-        <div>    
-            <img src="lion.png" class="borderImg">
-        </div>
--->
+
         <div>
             <button type="button" class="padding">I'm the button!</button>
         </div>
-<!--         <div id="circle">Hey yo</div> -->
-
 
 <!--
         <table cellspacing="10" align="center">
@@ -57,13 +109,19 @@
         </div>
         <hr>
         <h2>RESUME</h2>
-<!--
-        <ol>
-          <li>Handsome</li>
-          <li>Very handsome</li>
-          <li>Super handsome</li>
-        </ol>
--->
+        <div class="contianer">
+           <div class="col-7">
+               <article>
+                   <p>
+                       Registration for summer sessions of Warriors Basketball Camp, powered by Under Armour, is now available! Highlighting this year's summer slate are two special overnight camp sessions – one featuring Shaun Livingston & Zaza Pachulia at CSU Monterey Bay; and the other featuring Jordan Bell at the University of San Francisco. In addition to the overnight camps, the Rakuten Performance Center (the training facility of the Golden State Warriors) will host three sessions and the remaining camps on the schedule will take place at various locations throughout the Bay Area. Sessions will be offered in Oakley, Petaluma, San Francisco, Santa Rosa, Napa, Hayward, Cupertino, South San Francisco, Livermore, Oakland, Saratoga, San Mateo, San Jose, Larkspur, Walnut Creek, Newark, San Ramon and Santa Cruz.
+                   </p>
+               </article>
+           </div>
+            
+        </div>
+        
+        
+
         <hr>
         <h2>EXPERIENCES</h2>
         <hr>
