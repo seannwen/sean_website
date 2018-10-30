@@ -237,20 +237,20 @@ footer > p {
 
 /* Labels */
 .label {
-/*    display: inline;*/
-/*    padding: .25em .6em;*/
+    /*    display: inline;*/
+    /*    padding: .25em .6em;*/
     font-size: 100%;
     font-weight: bold;
-/*    line-height: 1;*/
+    /*    line-height: 1;*/
     color: #000000;
     text-align: center;
-/*    white-space: nowrap;*/
-/*    vertical-align: baseline;*/
-/*    border-radius: .35em;*/
+    /*    white-space: nowrap;*/
+    /*    vertical-align: baseline;*/
+    /*    border-radius: .35em;*/
 }
 /*
 .label-info {
-    background-color: #ffffff;
+background-color: #ffffff;
 }
 */
 
@@ -289,6 +289,11 @@ footer > p {
     padding: 20px;
     border: 1px solid #888;
     width: 80%;
+}
+
+.modal-content.txt {
+    color: #000000;
+    margin: auto;
 }
 
 /* The Close Button */
