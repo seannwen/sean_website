@@ -221,6 +221,9 @@ footer > p {
     font-size: 1.25em;
 }
 
+.profile-color {
+    color: #000000;
+}
 
 .no-list{
     margin: 0px;
@@ -287,14 +290,16 @@ background-color: #ffffff;
     background-color: #fefefe;
     margin: auto;
     padding: 20px;
-    border: 1px solid #888;
+/*    border: 1px solid #888;*/
     width: 80%;
+    color: #000000;
+    text-align: justify;
 }
 
-.modal-content.txt {
-    color: #000000;
-    margin: auto;
+.modal-content.title {
+    text-align: center;
 }
+
 
 /* The Close Button */
 .close {
@@ -1739,6 +1744,11 @@ article:last-child {
     margin: 0 0 2em 0;
 }
 
+.image.featured.imageStyle {
+    padding: 10px;
+    margin: auto;
+}
+
 .image.left {
     float: left;
     margin: 0 2em 2em 0;
@@ -2029,7 +2039,7 @@ ul.actions li:first-child {
     position: relative;
     left: 2em;
     top: 2em;
-    margin: -4em 0 4em -4em;
+    margin: -3em 1em 3em -3em;
     width: auto;
 }
 
