@@ -626,6 +626,29 @@ background-color: #ffffff;
     text-align: left;
 }
 
+.col-6.col-Name {
+    text-align: left;
+    color: #000000;
+}
+
+.col-6.col-Name {
+    text-align: left;
+}
+
+.col-3.col-Title {
+    color: #000000;
+    font-weight: bold;
+}
+
+.col-3.col-List {
+    color: #000000;
+    text-align: left;
+}
+
+.titleText {
+    text-align: left;
+}
+
 @media screen and (max-width: 1680px) {
 
     .row {
