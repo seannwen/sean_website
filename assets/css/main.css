@@ -225,7 +225,7 @@ footer > p {
     color: #000000;
 }
 
-.no-list{
+.no-list{F
     margin: 0px;
     padding: 0px;
     list-style: none;
@@ -264,6 +264,10 @@ background-color: #ffffff;
     margin: 0 auto;
     max-width: calc(100% - 50px);
     width: 1200px;
+}
+
+.container.portfolioSize {
+    height: 100%;
 }
 
 .container.medium {

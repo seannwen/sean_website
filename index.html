@@ -11,9 +11,8 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
         <link rel="stylesheet" href="assets/css/main.css" />
-
-
     </head>
+    
     <body class="is-preload">
 
         <!-- Nav -->
@@ -151,7 +150,7 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 
         <!-- Portfolio -->
         <article id="portfolio" class="wrapper style3">
-            <div class="container">
+            <div class="container portfolioSize">
                 <header>
                     <h2 class="icon fa-folder-open">Portfolio</h2>
                 </header>
@@ -164,10 +163,10 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
                             <h3>Ergonomic Product Design</h3>
                             <p>Improving an existing product with human factors issues</p>
                             <!-- Trigger/Open The Modal -->
-                            <button id="Btn">See Details</button>
+                            <button id="myBtn1">See Details</button>
 
                             <!-- The Modal -->
-                            <div id="Modal" class="modal">
+                            <div id="myModal1" class="modal">
 
                                 <!-- Modal content -->
                                 <div class="modal-content">
@@ -201,10 +200,10 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
                             <h3>Sustainable Product Design</h3>
                             <p>Design a product by implementing sustainable product development approaches</p>
                             <!-- Trigger/Open The Modal -->
-                            <button id="Btn">See Details</button>
+                            <button id="myBtn2">See Details</button>
 
                             <!-- The Modal -->
-                            <div id="Modal" class="modal">
+                            <div id="myModal2" class="modal">
 
                                 <!-- Modal content -->
                                 <div class="modal-content">
@@ -238,10 +237,10 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
                             <h3>Web Crawler</h3>
                             <p>A quick way to track NBA daily games with user's favorite team and schedule</p>
                             <!-- Trigger/Open The Modal -->
-                            <button id="myBtn">See Details</button>
+                            <button id="myBtn3">See Details</button>
 
                             <!-- The Modal -->
-                            <div id="myModal" class="modal">
+                            <div id="myModal3" class="modal">
 
                                 <!-- Modal content -->
                                 <div class="modal-content">
@@ -449,30 +448,8 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
                         <hr />
                         <h3>Find me on ...</h3>
                         <ul class="social">
-                            <!--
-<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
--->
                             <li><a href="https://www.linkedin.com/in/wentsunhsiang/" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
-                            <!--
-<li><a href="#" class="icon fa-tumblr"><span class="label">Tumblr</span></a></li>
-<li><a href="#" class="icon fa-google-plus"><span class="label">Google+</span></a></li>
--->
                             <li><a href="https://github.com/seannwen" class="icon fa-github"><span class="label">Github</span></a></li>
-
-                            <!--<li><a href="#" class="icon fa-rss"><span>RSS</span></a></li>-->
-                            <!--<li><a href="#" class="icon fa-instagram"><span>Instagram</span></a></li>-->
-                            <!--
-<li><a href="#" class="icon fa-foursquare"><span>Foursquare</span></a></li>
-<li><a href="#" class="icon fa-skype"><span>Skype</span></a></li>
-<li><a href="#" class="icon fa-soundcloud"><span>Soundcloud</span></a></li>
-<li><a href="#" class="icon fa-youtube"><span>YouTube</span></a></li>
-<li><a href="#" class="icon fa-blogger"><span>Blogger</span></a></li>
-<li><a href="#" class="icon fa-flickr"><span>Flickr</span></a></li>
-<li><a href="#" class="icon fa-vimeo"><span>Vimeo</span></a></li>
--->
-
                         </ul>
                         <hr />
                     </div>
@@ -492,33 +469,7 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
         <script src="assets/js/breakpoints.min.js"></script>
         <script src="assets/js/util.js"></script>
         <script src="assets/js/main.js"></script>
-        <script>
-            // Get the modal
-            var modal = document.getElementById('myModal');
-
-            // Get the button that opens the modal
-            var btn = document.getElementById("myBtn");
-
-            // Get the <span> element that closes the modal
-            var span = document.getElementsByClassName("close")[0];
-
-            // When the user clicks the button, open the modal 
-            btn.onclick = function() {
-                modal.style.display = "block";
-            }
-
-            // When the user clicks on <span> (x), close the modal
-            span.onclick = function() {
-                modal.style.display = "none";
-            }
-
-            // When the user clicks anywhere outside of the modal, close it
-            window.onclick = function(event) {
-                if (event.target == modal) {
-                    modal.style.display = "none";
-                }
-            }
-        </script>
+        <script src="assets/js/modal.js"></script>
 
     </body>
 </html>
