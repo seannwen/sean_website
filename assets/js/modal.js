@@ -51,10 +51,10 @@ window.onclick = function(event) {
 
 // dropdownIcon
 function dropdownMenu() {
-    var x = document.getElementById('dropList');
-    if (x.className === "container") {
-        x.className === " responsive";
+    var x = document.getElementById('dropdownClick');
+    if (x.className === "topnav") {
+        x.className += " responsive";
     } else {
-        x.className = "container";
+        x.className = "topnav";
     }
 }

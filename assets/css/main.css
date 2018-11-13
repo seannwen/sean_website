@@ -291,7 +291,7 @@ background-color: #ffffff;
     background-color: #fefefe;
     margin: auto;
     padding: 20px;
-/*    border: 1px solid #888;*/
+    /*    border: 1px solid #888;*/
     width: 80%;
     color: #000000;
     text-align: justify;
@@ -363,7 +363,7 @@ background-color: #ffffff;
     .container.medium {
         width: 100%;
     }
-    
+
 
 }
 
@@ -2153,7 +2153,7 @@ ul.actions li:first-child {
 /* Nav */
 
 #nav {
-    background-color: #282828;
+    background-color: black;
     text-align: center;
     position: fixed;
     left: 0;
@@ -2163,6 +2163,7 @@ ul.actions li:first-child {
     cursor: default;
     height: 3.5em;
     line-height: 3.5em;
+
 }
 
 #nav ul {
@@ -2171,9 +2172,12 @@ ul.actions li:first-child {
     padding-left: 0;
 }
 
+
+
 #nav li {
     display: inline-block;
     padding-left: 0;
+
 }
 
 
@@ -2197,7 +2201,7 @@ ul.actions li:first-child {
 
 #nav a:hover {
     color: #fff !important;
-    background: #383838;
+    background: mediumvioletred;
 }
 
 #nav a.active {
@@ -2516,46 +2520,50 @@ body > article {
         text-align: left;
     }
 
+
     #nav a {
         padding: 0 0.75em;
         height: inherit;
         line-height: inherit;
         border-radius: 0;
+        background-color: black;
     }
 
     #nav a:hover {
-        background-color: transparent;
+        background-color: mediumvioletred;
     }
-    
-    #nav li:not(:nth-child(1)) {
+
+    #nav .topnav li:not(:nth-child(1)) {
         display: none;
     }
-    
-    #nav li.dropdownIcon {
+
+
+    #nav .topnav li.dropdownIcon {
         display: block;
         float: right;
     }
-    
-    #nav .container.responsive li.dropdownIcon {
+
+
+    #nav .topnav.responsive li.dropdownIcon {
         position: absolute;
         top: 0;
         right: 0;
     }
-    
-    #nav .container.responsive {
+
+    #nav .topnav.responsive {
         position: relative;
     }
-    
-    #nav .container.responsive li {
+
+    #nav .topnav.responsive li {
         display: inline;
         float: none;
     }
-    
-    #nav .container.responsive li a {
+
+    #nav .topnav.responsive li a {
         display: block;
         text-align: left;
     }
- 
+
 
     /* Articles */
 
