@@ -59,5 +59,8 @@ function dropdownMenu() {
     }
 }
 
-
+function recoverDropdownMenu() {
+    var x = document.getElementById('dropdownClick');
+    x.className = "topnav";
+}
 
